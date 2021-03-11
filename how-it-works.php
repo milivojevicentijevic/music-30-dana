@@ -1,6 +1,6 @@
 <?php include "partials/header.php"; ?>
 
-    <!-- hiw -->
+    <!-- hiwHeader -->
     <section class="hiwHeader">
         <h2 class="container">How it works</h2>
         <article class="container">
