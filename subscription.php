@@ -1,5 +1,5 @@
 <?php include "partials/header.php"; ?>
-
+    <!-- subscription -->
     <section class="subscription">
         <article class="container">
             <div>

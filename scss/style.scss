@@ -78,6 +78,9 @@ a {
 h2 {
     font-size: 3rem;
     line-height: 1.1;
+    @media (max-width: 767px) {
+        font-size: 2rem;
+    }
 }
 /********************
 nav
@@ -86,6 +89,10 @@ nav {
     background-color: $navPlava;
     @include flex(space-between, center, row);
     padding: 30px 60px;
+    @media (max-width: 767px) {
+        @include flex(center, center, column);
+        padding: 20px;
+    }
     & > a {
         @extend .logo;
     }
@@ -93,6 +100,9 @@ nav {
         @include flex(space-between, center, row);
         li {
             margin-left: 50px;
+            @media (max-width: 767px) {
+                margin: 10px;
+            }
         }
     }
 }
@@ -120,9 +130,15 @@ header
     background-color: $tamnoPlava;
     color: $bela;
     padding: 0 60px;
+    @media (max-width: 767px) {
+        padding: 20px;
+    }
     @include flex(space-between, center, row);
     div {
         flex: 0 0 45%;
+        @media (max-width: 767px) {
+            flex: 0 0 100%;
+        }
         img {
             width: 100%;
             padding: 40px 0;
@@ -131,6 +147,9 @@ header
             font-size: 4rem;
             span {
                 color: $pink;
+            }
+            @media (max-width: 767px) {
+                font-size: 2rem;
             }
         }
         button {
@@ -146,6 +165,9 @@ unlimited
     @include flex(space-between, center, row);
     article {
         flex: 0 0 48%;
+        @media (max-width: 767px) {
+            flex: 0 0 100%;
+        }
         button {
             @include btn;
         }
@@ -162,6 +184,9 @@ hiwHeader
         @include flex(space-between, center, row);
         div {
             flex: 0 0 30%;
+            @media (max-width: 767px) {
+                flex: 0 0 100%;
+            }
             i {
                 color: $pink;
                 font-size: 4rem;
@@ -183,9 +208,15 @@ artists
         @include flex(space-between, flex-start, row);
         h2 {
             flex: 0 0 48%;
+            @media (max-width: 767px) {
+                flex: 0 0 100%;
+            }
         }
         p {
             flex: 0 0 48%;
+            @media (max-width: 767px) {
+                flex: 0 0 100%;
+            }
         }
     }
     article:last-child {
@@ -194,6 +225,9 @@ artists
         div {
             flex: 0 0 22%;
             text-align: center;
+            @media (max-width: 767px) {
+                flex: 0 0 100%;
+            }
             img {
                 width: 100%;
                 border-radius: 40px;
@@ -212,6 +246,9 @@ subscription
         @include flex(space-between, center, row);
         div:first-child {
             flex: 0 0 48%;
+            @media (max-width: 767px) {
+                flex: 0 0 100%;
+            }
             h4 {
                 color: $pink;
                 font-size: 1.8rem;
@@ -227,6 +264,10 @@ subscription
             padding: 30px;
             border-radius: 30px;
             @include flex(center, center, row);
+            @media (max-width: 767px) {
+                flex: 0 0 100%;
+                margin-top: 30px;
+            }
             ul {
                 line-height: 3;
             }
@@ -247,8 +288,15 @@ concept
     article:last-child {
         div {
             flex: 0 0 15%;
+            @media (max-width: 767px) {
+                flex: 0 0 100%;
+                margin-bottom: 40px;
+            }
             img {
                 border-radius: 50%;
+                @media (max-width: 767px) {
+                    width: 80%;
+                }
             }
         }
     }
