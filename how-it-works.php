@@ -33,17 +33,14 @@
                 <img src="img/artists1.jpg" alt="">
                 <h3>Soul music</h3>
             </div>
-            <article class="row">
             <div>
                 <img src="img/artists2.jpg" alt="">
                 <h3>Live concerts</h3>
             </div>
-            <article class="row">
             <div>
                 <img src="img/artists3.jpg" alt="">
                 <h3>DJ set</h3>
             </div>
-            <article class="row">
             <div>
                 <img src="img/artists4.jpg" alt="">
                 <h3>Live streams</h3>
