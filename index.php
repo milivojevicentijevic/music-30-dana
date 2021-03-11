@@ -19,7 +19,6 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam officiis libero enim omnis maiores accusamus possimus officia placeat non dicta fugit ipsum impedit accusantium vitae, iste excepturi quibusdam, ipsa dignissimos ab. Odio atque amet velit architecto culpa omnis quaerat vitae reprehenderit, eligendi quia voluptatibus, aspernatur consequuntur ratione quisquam quas voluptatum ipsam fuga doloremque quasi pariatur fugiat possimus cumque! Consectetur, tenetur.</p>
             <button>Try it now</button>
         </article>
-
     </section>
     
 <?php include "partials/footer.php"; ?>
